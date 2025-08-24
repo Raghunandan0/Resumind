@@ -1,87 +1,75 @@
-# Welcome to React Router!
+# 📄 Resumind – Smart Resume & Job Journey App
 
-A modern, production-ready template for building full-stack React applications using React Router.
-
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
-
-## Features
-
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
-
-## Getting Started
-
-### Installation
-
-Install the dependencies:
-
-```bash
-npm install
-```
-
-### Development
-
-Start the development server with HMR:
-
-```bash
-npm run dev
-```
-
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+🚀 **Resumind** helps users convert resumes into rich visuals, manage their job journey, and log in securely to track opportunities.  
+Built with a modern stack (**React, Tailwind, Framer Motion, PDF.js, Node.js, and Puter Auth**) to ensure performance, scalability, and smooth UX.  
 
 ---
 
-Built with ❤️ using React Router.
+## ✨ Features
+
+- 🔑 **Authentication** – Secure sign-in & sign-out with Puter Auth  
+- 📄 **PDF → Image Converter** – Upload resumes (PDF) and instantly convert into high-quality images  
+- 🖼️ **Optimized Preview** – High-resolution canvas rendering with smooth scaling  
+- 🎨 **Beautiful UI/UX** – Responsive design powered by TailwindCSS + Framer Motion  
+- ⚡ **Fast & Lightweight** – Minimal bundle size with optimized rendering  
+- 🛠️ **Developer-Friendly** – Modular utilities (UUID generator, file size formatter, className merger)  
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend**  
+- ⚛️ React (with Vite)  
+- 🎨 TailwindCSS + clsx + tailwind-merge  
+- 🎭 Framer Motion (animations)  
+
+**Backend / Core**  
+- 📦 Node.js + Express  
+- 📝 pdfjs-dist (PDF parsing & rendering)  
+- 🔑 Puter Auth (authentication layer)  
+
+**Others**  
+- 🔧 TypeScript (strict typing)  
+- 🧩 Utility Functions (UUID, file size formatter, class merger)  
+
+---
+
+## 🚀 Getting Started
+
+**Clone the repo:**
+```bash
+git clone https://github.com/yourusername/resumind.git
+cd resumind
+```
+**Install dependencies:**
+```npm install
+```
+*Run development server:*
+```npm run dev
+```
+*Build for production:*
+```
+npm run build
+```
+
+---
+
+## 📸 Preview
+
+- 🔐 **Auth Page** – Simple, modern login flow  
+- 📄 **Resume Upload** – Convert PDFs to images instantly  
+- 🎨 **UI Components** – Smooth animations & responsive layout  
+
+## Screenshots  
+<img src="https://github.com/user-attachments/assets/cfe1d323-9ec3-46a4-8579-0153c4900710" alt="Resumind Preview" width="800" />
+
+<img src="https://github.com/user-attachments/assets/a36f8f0b-2997-4ee0-be6c-62ad26994458" alt="Resumind Dashboard Preview" width="800" />
+
+---
+
+## 🌟 Why Resumind?
+
+✅ Solves real problem for job seekers (resume visualization & journey management)  
+✅ Showcases full-stack + frontend expertise  
+✅ Clean, maintainable, and scalable codebase  
+✅ Perfect for portfolio & production use  
