@@ -42,13 +42,15 @@ git clone https://github.com/yourusername/resumind.git
 cd resumind
 ```
 **Install dependencies:**
-```npm install
+```bash
+npm install
 ```
 *Run development server:*
-```npm run dev
+```bash
+npm run dev
 ```
 *Build for production:*
-```
+```bash
 npm run build
 ```
 
