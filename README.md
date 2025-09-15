@@ -1,7 +1,7 @@
 # 📄 Resumind – Smart Resume & Job Journey App
 
 🚀 **Resumind** helps users convert resumes into rich visuals, manage their job journey, and log in securely to track opportunities.  
-Built with a modern stack (**React, Tailwind, Framer Motion, PDF.js, Node.js, and Puter Auth**) to ensure performance, scalability, and smooth UX.  
+Built with a modern stack (**React, Tailwind, Framer Motion, PDF.js, Node.js, and Puter Auth**) to ensure performance, scalability, and smooth UX.
 
 ---
 
