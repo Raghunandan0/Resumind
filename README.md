@@ -12,7 +12,7 @@ Built with a modern stack (**React, Tailwind, Framer Motion, PDF.js, Node.js, an
 - 🖼️ **Optimized Preview** – High-resolution canvas rendering with smooth scaling  
 - 🎨 **Beautiful UI/UX** – Responsive design powered by TailwindCSS + Framer Motion  
 - ⚡ **Fast & Lightweight** – Minimal bundle size with optimized rendering  
-- 🛠️ **Developer-Friendly** – Modular utilities (UUID generator, file size formatter, className merger)  
+- 🛠️ **Developer-Friendly** – Modular utilities (UUID generator, file size formatter, className merger)
 
 ---
 
